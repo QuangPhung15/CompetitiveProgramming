@@ -1,6 +1,5 @@
-def solve():
+def solve(n, k):
 	res = 0
-	n, k = map(int, input().split())
 	k = 240 - k
 	l, r = 1, n
 
@@ -16,4 +15,5 @@ def solve():
 
 	return res
 
-print(solve())
+n, k = map(int, input().split())
+print(solve(n, k))

@@ -1,5 +1,4 @@
-def solve():
-	n, m = map(int, input().split())
+def solve(n, m):
 	primes = [True] * 51
 	p = 2
 
@@ -19,4 +18,5 @@ def solve():
 
 	return "YES"
 
-print(solve())
+n, m = map(int, input().split())
+print(solve(n, m))

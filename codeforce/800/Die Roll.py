@@ -1,5 +1,4 @@
-def solve():
-	y, w = map(int, input().split())
+def solve(y, w):
 	chances = 6 - max(y, w) + 1
 	common = 1
 
@@ -9,4 +8,5 @@ def solve():
 
 	return f"{chances // common}/{6 // common}"
 
-print(solve())
+y, w = map(int, input().split())
+print(solve(y, w))

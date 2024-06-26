@@ -1,10 +1,7 @@
-def solve():
-	n = int(input())
+def solve(n, games):
 	m, c = 0, 0
 
-	for _ in range(n):
-		a, b = map(int, input().split())
-
+	for a, b in games:
 		if (a > b):
 			m += 1
 		elif (b > a):
@@ -17,4 +14,10 @@ def solve():
 
 	return "Friendship is magic!^^"
 
-print(solve())
+n = int(input())
+games = []
+for i in range(n):
+	a, b = map(int, input().split())
+	games.append([a, b])
+
+print(solve(n, games))

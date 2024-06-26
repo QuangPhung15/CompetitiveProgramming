@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	res = "I hate "
 
 	for i in range(n - 1):
@@ -11,4 +10,5 @@ def solve():
 
 	return res + "it"
 
-print(solve())
+n = int(input())
+print(solve(n))

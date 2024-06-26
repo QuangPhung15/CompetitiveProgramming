@@ -1,6 +1,4 @@
-def solve():
-	n, h = map(int, input().split())
-	a = list(map(int, input().split()))
+def solve(n, h, a):
 	res = 0
 
 	for p in a:
@@ -11,4 +9,6 @@ def solve():
 
 	return res
 
-print(solve())
+n, h = map(int, input().split())
+a = list(map(int, input().split()))
+print(solve(n, h, a))

@@ -1,5 +1,5 @@
-def solve():
-	s1, s2 = input().lower(), input().lower()
+def solve(s1, s2):
+	s1, s2 = s1.lower(), s2.lower()
 
 	for i in range(len(s1)):
 		if (s1[i] > s2[i]):
@@ -9,4 +9,6 @@ def solve():
 
 	return 0
 
-print(solve())
+s1 = input()
+s2 = input()
+print(solve(s1, s2))

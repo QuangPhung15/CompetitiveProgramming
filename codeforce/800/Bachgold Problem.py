@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	res = []
 
 	if (n % 2 == 1):
@@ -12,6 +11,7 @@ def solve():
 
 	return res
 
-res = solve()
+n = int(input())
+res = solve(n)
 print(len(res))
 print(*res)

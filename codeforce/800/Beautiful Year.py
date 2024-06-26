@@ -1,6 +1,4 @@
-def solve():
-	y = int(input())
-
+def solve(y):
 	while (True):
 		y += 1
 		a, b, c, d = list(str(y))
@@ -8,4 +6,5 @@ def solve():
 		if (a != b and a != c and a != d and b != c and b != d and c != d):
 			return y
 
-print(solve())
+y = int(input())
+print(solve(y))

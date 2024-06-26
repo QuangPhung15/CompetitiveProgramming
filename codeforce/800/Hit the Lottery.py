@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	bills = [100, 20, 10, 5, 1]
 	res = 0
 
@@ -9,4 +8,5 @@ def solve():
 
 	return res
 
-print(solve())
+n = int(input())
+print(solve(n))

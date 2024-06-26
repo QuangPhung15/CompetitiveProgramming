@@ -1,5 +1,4 @@
-def solve():
-	s = input()
+def solve(s):
 	l, u = 0, 0
 
 	for c in s:
@@ -13,4 +12,5 @@ def solve():
 
 	return s.lower()
 
-print(solve())
+s = input()
+print(solve(s))

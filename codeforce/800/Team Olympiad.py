@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	nums = list(map(int, input().split()))
+def solve(n, nums):
 	res = []
 	p, m, pe = [], [], []
 
@@ -18,7 +16,9 @@ def solve():
 
 	return count, res
 
-count, res = solve()
+n = int(input())
+nums = list(map(int, input().split()))
+count, res = solve(n, nums)
 print(count)
 for r in res:
 	print(*r)

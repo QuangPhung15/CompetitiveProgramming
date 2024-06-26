@@ -1,6 +1,7 @@
-def solve():
-	res = set(map(int, input().split()))
+def solve(nums):
+	res = set(nums)
 
 	return 4 - len(res)
 
-print(solve())
+nums = map(int, input().split())
+print(solve(nums))

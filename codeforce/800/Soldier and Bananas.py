@@ -1,5 +1,4 @@
-def solve():
-	k, n, w = map(int, input().split())
+def solve(k, n, w):
 	res = n
 
 	for i in range(w):
@@ -10,4 +9,5 @@ def solve():
 
 	return abs(res)
 
-print(solve())
+k, n, w = map(int, input().split())
+print(solve(k, n, w))

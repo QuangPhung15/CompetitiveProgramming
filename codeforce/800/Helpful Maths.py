@@ -1,5 +1,4 @@
-def solve():
-	nums = list(map(int, input().split("+")))
+def solve(nums):
 	bucket = [0] * 4
 
 	for n in nums:
@@ -15,4 +14,5 @@ def solve():
 
 	return "+".join(nums)
 
-print(solve())
+nums = list(map(int, input().split("+")))
+print(solve(nums))

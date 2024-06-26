@@ -1,5 +1,4 @@
-def solve():
-	n = input()
+def solve(n):
 	lucky = 0
 
 	for c in n:
@@ -12,4 +11,5 @@ def solve():
 
 	return "YES"
 
-print(solve())
+n = input()
+print(solve(n))

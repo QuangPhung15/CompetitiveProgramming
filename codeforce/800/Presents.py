@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	gifts = map(int, input().split())
+def solve(n, gifts):
 	res = [""] * n
 
 	for i, g in enumerate(gifts):
@@ -8,4 +6,6 @@ def solve():
 
 	return " ".join(res)
 
-print(solve())
+n = int(input())
+gifts = map(int, input().split())
+print(solve(n, gifts))

@@ -1,6 +1,4 @@
-def solve():
-    n, k = map(int, input().split())
-    a = list(map(int, input().split()))
+def solve(n, k, a):
     res = 0
 
     for s in a:
@@ -9,4 +7,6 @@ def solve():
         else:
             break
 
-print(solve())
+n, k = map(int, input().split())
+a = list(map(int, input().split()))
+print(solve(n, k, a))

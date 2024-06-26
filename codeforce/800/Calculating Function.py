@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	total = (n + 1) * n // 2
 
 	if (n % 2 == 1):
@@ -9,4 +8,5 @@ def solve():
 
 	return total - 2 * odd
 
-print(solve())
+n = int(input())
+print(solve(n))

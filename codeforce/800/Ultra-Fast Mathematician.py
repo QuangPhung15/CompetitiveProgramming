@@ -1,5 +1,4 @@
-def solve():
-	a, b = input(), input()
+def solve(a, b):
 	res = ""
 
 	for i in range(len(a)):
@@ -10,4 +9,5 @@ def solve():
 
 	return res
 
-print(solve())
+a, b = input(), input()
+print(solve(a, b))

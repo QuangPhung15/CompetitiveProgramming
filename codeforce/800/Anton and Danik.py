@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	s = input()
+def solve(n, s):
 	d, a = 0, 0
 
 	for i in range(n):
@@ -16,4 +14,6 @@ def solve():
 	else:
 		return "Danik"
 
-print(solve())
+n = int(input())
+s = input()
+print(solve(n, s))

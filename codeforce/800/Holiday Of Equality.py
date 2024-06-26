@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	nums = list(map(int, input().split()))
+def solve(n, nums):
 	res = 0
 	mx = max(nums)
 
@@ -9,4 +7,6 @@ def solve():
 
 	return res
 
+n = int(input())
+nums = list(map(int, input().split()))
 print(solve())

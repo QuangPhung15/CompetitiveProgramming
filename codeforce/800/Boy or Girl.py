@@ -1,5 +1,4 @@
-def solve():
-	s = input()
+def solve(s):
 	char = set()
 
 	for c in s:
@@ -10,4 +9,5 @@ def solve():
 	else:
 		return "CHAT WITH HER!"
 
-print(solve())
+s = input()
+print(solve(s))

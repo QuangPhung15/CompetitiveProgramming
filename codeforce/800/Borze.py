@@ -1,5 +1,4 @@
-def solve():
-	s = input()
+def solve(s):
 	res = ""
 	i = 0
 
@@ -18,4 +17,5 @@ def solve():
 
 	return res
 
-print(solve())
+s = input()
+print(solve(s))

@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	nums = list(map(int, input().split()))
+def solve(n, nums):
 	res = [0, 0]
 	l, r = 0, n - 1
 
@@ -23,4 +21,6 @@ def solve():
 
 	return res
 
-print(*solve())
+n = int(input())
+nums = list(map(int, input().split()))
+print(*solve(n, nums))

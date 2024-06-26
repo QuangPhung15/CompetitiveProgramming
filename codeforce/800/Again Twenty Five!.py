@@ -1,6 +1,5 @@
-def solve():
-	n = int(input())
-
+def solve(n):
 	return 25
 
-print(solve())
+n = int(input())
+print(solve(n))

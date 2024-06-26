@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	primes = [True] * (n + 1)
 	p = 2
 	l, r = 2, n - 2
@@ -17,4 +16,5 @@ def solve():
 
 	return [l, r]
 
-print(*solve())
+n = int(input())
+print(*solve(n))

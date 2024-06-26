@@ -1,5 +1,4 @@
-def solve():
-	nums = list(map(int, input().split()))
+def solve(nums):
 	nums.sort()
 	res = [0, 0, 0]
 
@@ -9,4 +8,5 @@ def solve():
 
 	return res
 
-print(*solve())
+nums = list(map(int, input().split()))
+print(*solve(nums))

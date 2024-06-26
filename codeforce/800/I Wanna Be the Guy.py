@@ -1,7 +1,4 @@
-def solve():
-	n = int(input())
-	p = list(map(int, input().split()))
-	q = list(map(int, input().split()))
+def solve(n, p, q):
 	res = set()
 
 	for l in p[1::]:
@@ -15,4 +12,7 @@ def solve():
 
 	return "I become the guy."
 
-print(solve())
+n = int(input())
+p = list(map(int, input().split()))
+q = list(map(int, input().split()))
+print(solve(n, p, q))

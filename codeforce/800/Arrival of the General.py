@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	heights = list(map(int, input().split()))
+def solve(n, heights):
 	mx, mn = heights[0], heights[-1]
 	l, r = 0, n - 1
 
@@ -19,4 +17,6 @@ def solve():
 
 	return res
 
-print(solve())
+n = int(input())
+heights = list(map(int, input().split()))
+print(solve(n, heights))

@@ -1,15 +1,16 @@
-def solve():
-	n = int(input())
+def solve(n, magnets):
 	res = 0
-	prev = ""
 
-	for _ in range(n):
-		m = input()
-		if (m != prev):
+	for i in range(1, n):
+		if (magnets[i] != magnets[i - 1]):
 			res += 1
-
-		prev = m
 
 	return res
 
-print(solve())
+n = int(input())
+magnets = []
+for i in range(n):
+	m = input()
+	magnets.append(m)
+
+print(solve(n, magnets))

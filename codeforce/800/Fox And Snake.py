@@ -1,5 +1,4 @@
-def solve():
-	n, m = map(int, input().split())
+def solve(n, m):
 	flag = 1
 
 	for i in range(n):
@@ -13,4 +12,5 @@ def solve():
 
 			flag *= -1
 
-solve()
+n, m = map(int, input().split())
+solve(n, m)

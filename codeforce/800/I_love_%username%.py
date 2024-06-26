@@ -1,7 +1,5 @@
-def solve():
+def solve(n, points):
 	res = 0
-	n = int(input())
-	points = list(map(int, input().split()))
 	mn, mx = points[0], points[0]
 
 	for i in range(1, n):
@@ -16,4 +14,6 @@ def solve():
 
 	return res
 
-print(solve())
+n = int(input())
+points = list(map(int, input().split()))
+print(solve(n, points))

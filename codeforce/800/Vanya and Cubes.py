@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	res = 0
 	curr = 1
 
@@ -10,4 +9,5 @@ def solve():
 
 	return res
 
-print(solve())
+n = int(input())
+print(solve(n))

@@ -1,5 +1,4 @@
-def solve():
-	k, l, m, n, d = int(input()), int(input()), int(input()), int(input()), int(input())
+def solve(k, l, m, n, d):
 	res = 0
 
 	for i in range(1, d + 1):
@@ -8,4 +7,5 @@ def solve():
 
 	return res
 
-print(solve())
+k, l, m, n, d = int(input()), int(input()), int(input()), int(input()), int(input())
+print(solve(k, l, m, n, d))

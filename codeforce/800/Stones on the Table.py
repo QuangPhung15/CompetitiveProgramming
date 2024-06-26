@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	s = input()
+def solve(n, s):
 	res = 0
 
 	i = 1
@@ -13,4 +11,6 @@ def solve():
 
 	return res
 
-print(solve())
+n = int(input())
+s = input()
+print(solve(n, s))

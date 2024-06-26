@@ -1,7 +1,5 @@
 import collections
-def solve():
-	n, t = map(int, input().split())
-	s = list(input())
+def solve(n, t, s):
 	q = collections.deque()
 
 	for i in range(len(s)):
@@ -21,4 +19,6 @@ def solve():
 
 	return "".join(s)
 
-print(solve())
+n, t = map(int, input().split())
+s = list(input())
+print(solve(n, t, s))

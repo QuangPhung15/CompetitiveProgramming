@@ -1,5 +1,4 @@
-def solve():
-	s = input()
+def solve(s):
 	seen = set()
 
 	for i in range(1, len(s) - 1, 3):
@@ -7,4 +6,5 @@ def solve():
 
 	return len(seen)
 
-print(solve())
+s = input()
+print(solve(s))

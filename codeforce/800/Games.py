@@ -1,6 +1,5 @@
 import collections
-def solve():
-	n = int(input())
+def solve(n):
 	home, guest = collections.defaultdict(int), collections.defaultdict(int)
 	res = 0
 
@@ -14,4 +13,5 @@ def solve():
 
 	return res
 
-print(solve())
+n = int(input())
+print(solve(n))

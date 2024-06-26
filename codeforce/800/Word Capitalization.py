@@ -1,5 +1,4 @@
-def solve():
-	s = input()
+def solve(s):
 	res = s[0].upper()
 
 	for i in range(1, len(s)):
@@ -7,4 +6,5 @@ def solve():
 
 	return res
 
-print(solve())
+s = input()
+print(solve(s))

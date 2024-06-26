@@ -1,5 +1,4 @@
-def solve():
-	s1, s2, s3 = input(), input(), input()
+def solve(s1, s2, s3):
 	count = [0] * 26
 
 	for c in s1:
@@ -17,4 +16,5 @@ def solve():
 
 	return "YES"
 
-print(solve())
+s1, s2, s3 = input(), input(), input()
+print(solve(s1, s2, s3))

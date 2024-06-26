@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	s = input()
+def solve(n, s):
 	count = set()
 
 	if (n < 26):
@@ -14,4 +12,6 @@ def solve():
 
 	return "NO"
 
-print(solve())
+n = int(input())
+s = input()
+print(solve(n, s))

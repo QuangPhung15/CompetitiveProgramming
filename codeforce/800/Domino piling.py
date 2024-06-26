@@ -1,5 +1,5 @@
-def solve():
-	m, n = map(int, input().split())
+def solve(m, n):
 	return m * n // 2
 
-print(solve())
+m, n = map(int, input().split())
+print(solve(m, n))

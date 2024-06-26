@@ -1,6 +1,5 @@
-def solve():
+def solve(a, b):
 	res = 0
-	a, b = map(int, input().split())
 
 	while (a <= b):
 		res += 1
@@ -9,4 +8,5 @@ def solve():
 
 	return res
 
-print(solve())
+a, b = map(int, input().split())
+print(solve(a, b))
