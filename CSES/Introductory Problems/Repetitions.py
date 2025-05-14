@@ -1,5 +1,4 @@
-def solve():
-	s = input()
+def solve(s):
 	res = 0
 	l, curr = 0, 0
 
@@ -13,4 +12,5 @@ def solve():
 
 	return res
 
-print(solve())
+s = input()
+print(solve(s))

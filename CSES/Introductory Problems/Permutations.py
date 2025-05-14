@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	res = []
 
 	if (n == 3 or n == 2):
@@ -13,7 +12,8 @@ def solve():
 
 	return res
 
-res = solve()
+n = int(input())
+res = solve(n)
 if (res == "NO SOLUTION"):
 	print(res)
 else:

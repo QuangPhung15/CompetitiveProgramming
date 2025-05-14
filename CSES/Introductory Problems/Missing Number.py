@@ -1,6 +1,4 @@
-def solve():
-	n = int(input())
-	nums = list(map(int, input().split()))
+def solve(n, nums):
 	res = (n + 1) * n // 2
 
 	for n in nums:
@@ -8,4 +6,6 @@ def solve():
 
 	return res
 
-print(solve())
+n = int(input())
+nums = list(map(int, input().split()))
+print(solve(n, nums))

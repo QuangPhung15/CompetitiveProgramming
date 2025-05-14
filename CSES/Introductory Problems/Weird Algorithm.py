@@ -1,5 +1,4 @@
-def solve():
-	n = int(input())
+def solve(n):
 	nums = []
 
 	while (n != 1):
@@ -12,4 +11,5 @@ def solve():
 	nums.append(1)
 	return nums
 
-print(*solve())
+n = int(input())
+print(*solve(n))
