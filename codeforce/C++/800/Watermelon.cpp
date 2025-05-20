@@ -5,7 +5,7 @@ void solve() {
     int w;
     cin >> w;
 
-    if (w % 2 == 0) {
+    if (w > 2 && w % 2 == 0) {
         cout << "YES" << endl;
     } else {
         cout << "NO" << endl;
@@ -14,4 +14,5 @@ void solve() {
 
 int main() {
     solve();
+    return 0;
 }
