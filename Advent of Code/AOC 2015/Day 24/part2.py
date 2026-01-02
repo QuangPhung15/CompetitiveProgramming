@@ -6,7 +6,7 @@ res = -1
 size = float("inf")
 n = len(weights)
 target = sum(weights) // 4
-weights.sort(reverse=True)
+weights.sort(reverse = True)
 
 def backtrack(i, total, prod, count):
     global res, size
