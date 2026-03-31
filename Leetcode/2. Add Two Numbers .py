@@ -27,4 +27,12 @@ class Solution:
             curr = curr.next
         
         return dummy.next
-    
+
+"""
+Time Complexity: O(N1 + N2)
+Space Complexity: O(N1 + N2)
+
+Where
+N1 = number of ListNodes in l1
+N2 = number of ListNodes in l2
+"""

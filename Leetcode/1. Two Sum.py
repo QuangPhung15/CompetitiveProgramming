@@ -13,4 +13,11 @@ class Solution:
             seen[n] = i
         
         return []
-    
+
+"""
+Time Complexity: O(N)
+Space Complexity: O(N)
+
+Where
+N = length of list nums
+"""
