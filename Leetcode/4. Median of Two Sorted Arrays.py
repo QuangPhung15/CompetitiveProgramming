@@ -39,4 +39,3 @@ Where:
 M = length of list nums1
 N = length of list nums2
 """
-
