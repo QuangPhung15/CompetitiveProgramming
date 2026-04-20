@@ -15,6 +15,15 @@ class TreeNode:
         self.left = left
         self.right = right
 
+# Definition for a ListTreeNode.
+class ListTreeNode:
+    def __init__(self, val: int = 0, left: ListTreeNode = None, right: ListTreeNode = None, next: ListTreeNode = None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+
+
 def parse_linked_list(input: str) -> List[int]:
     return literal_eval(input)
 
